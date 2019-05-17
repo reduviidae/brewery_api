@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: brewery_api_production
-  username: brewery_api
-  password: <%= ENV['DEEP_FOREST_API_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: <%= ENV['BREWERY_API_DATABASE_PASSWORD'] %>
