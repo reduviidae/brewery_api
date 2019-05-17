@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2019_05_17_170803) do
     t.string "state"
     t.string "postal_code"
     t.string "country"
-    t.string "longtitude"
+    t.string "longitude"
     t.string "latitude"
     t.string "phone"
     t.string "website_url"
